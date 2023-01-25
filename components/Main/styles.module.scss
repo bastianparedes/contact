@@ -1,0 +1,13 @@
+.main {
+  min-width: 100vw;
+  min-height: calc(100vh - 3rem);
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+}

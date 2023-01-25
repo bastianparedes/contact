@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultModal /> should render 1`] = `
+<div>
+  <button>
+    X
+  </button>
+  <div
+    class="container"
+  >
+    <div
+      class="iconContainer"
+    />
+    <div
+      class="textContainer"
+    >
+      <p
+        class="text"
+      >
+        Success
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResultModal /> should render without props 1`] = `
+<div>
+  <button>
+    X
+  </button>
+  <div
+    class="container"
+  >
+    <div
+      class="iconContainer"
+    />
+    <div
+      class="textContainer"
+    >
+      <p
+        class="text"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+}
+
+.textarea {
+  resize: none;
+  height: 100px;
+}

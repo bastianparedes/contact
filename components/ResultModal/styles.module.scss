@@ -1,0 +1,34 @@
+@import 'bastianparedes/styles/_breakpoints';
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.iconContainer {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.textContainer {
+  position: relative;
+}
+
+.text {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+@include phone {
+  .container {
+    padding: 0 2rem 2rem 2rem;
+  }
+}

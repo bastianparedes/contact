@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> should render 1`] = `
+<div>
+  <form
+    class="form"
+    data-testid="contact-form"
+  >
+    <input
+      name="userName"
+      placeholder="Nombre"
+      type="text"
+    />
+    <input
+      name="email"
+      placeholder="Correo electrónico"
+      type="email"
+    />
+    <input
+      name="subject"
+      placeholder="Asunto"
+      type="text"
+    />
+    <textarea
+      class="textarea"
+      name="message"
+      placeholder="Mensaje"
+    />
+    <button
+      type="submit"
+      value="Enviar"
+    >
+      Enviar
+    </button>
+  </form>
+</div>
+`;
